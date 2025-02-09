@@ -1,2 +1,16 @@
-# Get User
+### Get User
 GET http://localhost:3000/users
+
+
+### Get All Books
+GET http://localhost:3000/books
+
+### Create New Book
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+    "title": "Book 1",
+    "author": "Author 1",
+    "rating": 5
+}
